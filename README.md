@@ -20,13 +20,21 @@ Pada contoh di atas kita membuat sebuah Dictionary bernama aku dengan isi data n
 ## Pejelasan
 
 • Membuat Dictionary Daftar Kontak. r = {'Ari' : '081267888', 'Dina' : '087677776'}.
+
 • Menampilkan kontak, untuk menampilkan salah satu kontak ialah menggunakan `r['Ari]`. r adalah variabel dictionary, sedangkan `['Ari]` adalah  keys dari sebuah dictionary. Python `print("Menampilkan Kontak Ari: ", r['Ari']`).
+
 • Menambahkan kontak baru menggunakan `variable_dictionary['keys']=value;`. Python `r['Riko']= '087654544';`.
+
 • Mengubah kontak yang lama dengan yang baru, menggunakan `variable_dictionary['keys']=value;`. Disini saya akan mengubah value dari kontak Dina, yang awalnya `'Dina' : '087677776'` menjadi `r['Dina'] = '088999776'`.
+
 • Menampilkan keseluruhan nama pada kontak menggunakan `keys()`. Python `print(r.keys())`.
+
 • Menampilkan keseluruhan nomor kontak menggunakan `values()`. Python `print(r.values())`.
+
 • Menampilkan keseluruhan nama beserta nomor kontak menggunakan `items()`. Python `print(r.items())`
+
 • Untuk menghapus salah satu kontak menggunakan statement `del variable_dictionary[keys];`. Python `del r['Dina'];`
+
 
 ## Hasil Runinng
 ![gambar4](gambar/4.png)
